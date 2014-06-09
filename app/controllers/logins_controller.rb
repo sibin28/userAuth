@@ -3,6 +3,7 @@ class LoginsController < ApplicationController
   # GET /logins.json
   #Editing for checking repository
   def index
+	#Added for git testing
     @logins = Login.all
 
     respond_to do |format|
