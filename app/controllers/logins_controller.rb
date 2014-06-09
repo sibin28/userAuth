@@ -1,7 +1,7 @@
 class LoginsController < ApplicationController
   # GET /logins
   # GET /logins.json
-  #Editing for checking repo
+  #Editing for checking repository
   def index
     @logins = Login.all
 
