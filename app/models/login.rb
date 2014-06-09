@@ -1,4 +1,5 @@
 class Login < ActiveRecord::Base
+  #editing login model
   attr_accessible  :password, :username
   validates :username, :presence => true
   validates :password, :presence => true
